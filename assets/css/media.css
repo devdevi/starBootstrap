@@ -120,12 +120,7 @@
      .aboutTwo img{
           border-radius: 100%;
           width: 95%;
-          padding: 1em;
+          padding: .5em;
      }
 
-     .imgBN{
-          align-content: center;
-         text-align: center;
-         margin-right: 0;
-     }
 }

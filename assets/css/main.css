@@ -48,10 +48,6 @@ header nav ul li:first-child{
 	text-align: center;
 	z-index: 1;	
 }
-.firstPic{
-	background-color: black;
-	z-index: 2;
-}
 
 .firstPic h1{
 	font-weight: 100;
