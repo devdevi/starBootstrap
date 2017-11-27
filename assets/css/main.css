@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	
+}
+header{
+	width: 100%;
+	background-color: #343a40;
+}
+.menu_bar{
+	display: none;
+}
+header nav{
+	width: 90%
+	margin-top:.3em;
+	margin-left: 1em;
+}
+header nav ul{
+	overflow: hidden;
+	list-style: none;
+	cursor:pointer;
+	margin-right: 0;
+}
+header nav ul li{
+	padding: 1em;
+	display: inline-block;
+	color: white;
+	float: left;
+}
+header nav ul li:hover{
+	color: gray;
+}
+header nav ul li:first-child{
+	padding-right: 35em;
+	font-size: 1.2em;
+}
+.firstPic{
+	background-image: url(../img/header.jpg);
+	background-position: 50% 0;
+	padding: 13em;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	z-index: 1;	
+}
+.firstPic{
+	background-color: black;
+	z-index: 2;
+}
+
+.firstPic h1{
+	font-weight: 100;
+	font-size: 90px;
+}
+.firstPic h2{
+	font-weight: 100;
+	font-size: 50px;	
+}
+.aboutOne h2{
+	padding: 2.5em;
+	padding-bottom: .1em;
+	font-weight: 100;
+	font-size: 2.8em;
+}
+.aboutOne p{
+	padding: 0 7em 0 7em;
+    padding-bottom: 1em;
+    font-weight: 100;
+}
+.aboutOne img{
+	border-radius: 100%;
+	width: 70%;
+	padding: 2em;
+}
+
+
+.aboutTwo h2{
+	padding: 2.5em;
+	padding-bottom: .1em;
+	font-weight: 100;
+	font-size: 2.8em;
+}
+.aboutTwo  p{
+	padding: 0 7em 0 7em;
+    padding-bottom: 1em;
+    font-weight: 100;
+}
+.aboutTwo img{
+	border-radius: 100%;
+	width: 70%;
+	padding: 2em ;
+}
+
+.imgBN{
+	align-content: center;
+    text-align: center;
+    margin-right: 0;
+}
+.footPage{
+	background-color: #343a40;
+	text-align: center;
+	color: white;
+	padding: 2em;
+	font-weight: 100;
+}

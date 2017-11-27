@@ -1,0 +1,131 @@
+@media (min-width:933px) and (max-width:1172px ) {
+	[class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+		
+          width:100%;
+
+     }
+     header nav ul li:first-child{
+          padding-right: 20em;
+          font-size: 1.2em;
+    } 
+     
+
+}
+@media screen and (max-width:932px ) {
+     [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+          
+          width:100%;
+     }
+     body{
+          color: #222529;
+       
+     }
+     
+     header nav{
+          width: 80%;
+          height:100%;
+          margin-top: 0;
+          position: fixed;
+          background-color: #343a40;
+          padding: 1em;
+          left: -100%;
+          overflow: hidden;
+     }
+     header nav ul li{
+          float: none;
+          display: block;
+          color: #fff;
+          padding: 0;
+          padding-top: 1em;
+          margin-left: 1em;
+     }
+     header nav ul li:first-child{
+     padding-right: 0;
+     display: none;
+     
+     }
+     .menu_bar{
+          display: block;
+          width: 100%;
+          background-color: #343a40;
+          padding: 1.7em .5em;
+          font-size: 1em;
+     }
+     .menu_bar a{
+          text-decoration: none;
+          color: #fff;
+          font-size: 1.3em;
+          margin: 1em;
+          padding-top: 1em;
+          box-sizing: border-box;
+
+     }
+     .menu_bar span{
+          float: right;
+          margin-right: .5em;
+
+     }
+     /*estilos cuerpo de la pagina*/
+     .firstPic{
+          padding: 0;
+          padding-top: 5em;
+          padding-bottom: 5em;
+          
+            
+     }
+     .firstPic h1{
+          font-weight: 100;
+          font-size: 100px;
+     }
+     .firstPic h2{
+          font-weight: 100;
+          font-size: 45px;    
+     }
+      /*estilos cuerpo(imagenes) de la pagina*/
+
+     .aboutOne h2{
+          text-align: left;
+          padding: .4em;
+          padding-bottom: .4em;
+          font-weight: 100;
+          font-size: 4em;
+     }
+     .aboutOne p{
+          text-align: left;
+          padding: 0 3em 0 2em;
+          padding-bottom: 1em;
+          font-weight: 100;
+          line-height: 1.7em;
+     }
+     .aboutOne img{
+          border-radius: 100%;
+          width: 95%;
+          padding: 1em;
+     }
+
+     .aboutTwo h2{
+          text-align: left;
+          padding: .4em;
+          padding-bottom: .4em;
+          font-weight: 100;
+          font-size: 4em;
+     }
+     .aboutTwo  p{
+          text-align: left;
+          padding: 0 5em 0 2em;
+          padding-bottom: 1em;
+          font-weight: 100;
+          line-height: 1.8em;
+     }
+     .aboutTwo img{
+          border-radius: 100%;
+          width: 95%;
+          padding: 1em;
+     }
+
+     .imgBN{
+          align-content: center;
+         text-align: center;
+         margin-right: 0;
+     }
+}
