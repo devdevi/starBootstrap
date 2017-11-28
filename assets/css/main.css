@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body{
@@ -36,7 +37,7 @@ header nav ul li:hover{
 	color: gray;
 }
 header nav ul li:first-child{
-	padding-right: 35em;
+	padding-right: 30em;
 	font-size: 1.2em;
 }
 .firstPic{
@@ -50,53 +51,88 @@ header nav ul li:first-child{
 }
 
 .firstPic h1{
-	font-weight: 100;
-	font-size: 90px;
+	font-size: 70px;
 }
 .firstPic h2{
 	font-weight: 100;
-	font-size: 50px;	
+	font-size: 30px;
+	
 }
-.aboutOne h2{
-	padding: 2.5em;
-	padding-bottom: .1em;
-	font-weight: 100;
-	font-size: 2.8em;
-}
-.aboutOne p{
-	padding: 0 7em 0 7em;
-    padding-bottom: 1em;
-    font-weight: 100;
-}
-.aboutOne img{
-	border-radius: 100%;
-	width: 70%;
+.aboutUs{
+	margin: 2em 4em;
 	padding: 2em;
+
 }
-
-
-.aboutTwo h2{
-	padding: 2.5em;
-	padding-bottom: .1em;
+.aboutUs h2{
 	font-weight: 100;
 	font-size: 2.8em;
 }
-.aboutTwo  p{
-	padding: 0 7em 0 7em;
-    padding-bottom: 1em;
-    font-weight: 100;
+.aboutUs h5{
+	font-weight: 100;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
-.aboutTwo img{
-	border-radius: 100%;
-	width: 70%;
-	padding: 2em ;
+.aboutUs button{
+	border: none;
+	padding: .5em;
+	background-color: #0f3764;
+	color : white;
+	cursor: pointer;
+	border-radius: 5%;
+}
+.aboutUs button h5{
+	display: inline-block;
+	letter-spacing: .05em;
+	
+}
+.aboutUs p{
+	padding: 1em 3em 1em 0;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 1.7em;
+}
+.info p{
+	padding: .3em;
+}
+.info a{
+	text-decoration: none;
+	color:  #0f3764 ;
+}
+.services{
+	padding: 2em;
+	font-weight: 100;
+	/*outline: 2px solid red;*/
+}
+.services p{
+	line-height: 1.7em;
+}
+.services img {
+	width: 100%;
+	align-content: center;
+	margin: 0s;
+}
+.services button{
+	margin-top: .5em;
+	border: none;
+	padding: .5em;
+	background-color: #0f3764;
+	color : white;
+	cursor: pointer;
+	border-radius: 5%;
+	cursor: pointer;
+	font-weight: 100;
+}
+.services button h5{
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 100;
+	letter-spacing: .05em;
+
+}
+.services h2, .services p, .services button {
+	padding-top: .5em;
 }
 
-.imgBN{
-	align-content: center;
-    text-align: center;
-    margin-right: 0;
-}
 .footPage{
 	background-color: #343a40;
 	text-align: center;

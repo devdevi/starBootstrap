@@ -1,4 +1,4 @@
-@media (min-width:933px) and (max-width:1172px ) {
+@media (min-width:963px) and (max-width:1172px ) {
 	[class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
 		
           width:100%;
@@ -11,7 +11,7 @@
      
 
 }
-@media screen and (max-width:932px ) {
+@media screen and (max-width:962px ) {
      [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
           
           width:100%;
@@ -83,24 +83,22 @@
      }
       /*estilos cuerpo(imagenes) de la pagina*/
 
-     .aboutOne h2{
+     .aboutUs h2{
           text-align: left;
-          padding: .4em;
-          padding-bottom: .4em;
+          padding-bottom: .2em;
           font-weight: 100;
           font-size: 4em;
      }
-     .aboutOne p{
-          text-align: left;
-          padding: 0 3em 0 2em;
+     .aboutUs p{
+          text-align: justify;
           padding-bottom: 1em;
           font-weight: 100;
           line-height: 1.7em;
      }
-     .aboutOne img{
-          border-radius: 100%;
-          width: 95%;
-          padding: 1em;
+     .aboutUs button{
+          padding: .5em;
+          margin: 1em;
+          margin-left: 0;
      }
 
      .aboutTwo h2{
@@ -109,18 +107,6 @@
           padding-bottom: .4em;
           font-weight: 100;
           font-size: 4em;
-     }
-     .aboutTwo  p{
-          text-align: left;
-          padding: 0 5em 0 2em;
-          padding-bottom: 1em;
-          font-weight: 100;
-          line-height: 1.8em;
-     }
-     .aboutTwo img{
-          border-radius: 100%;
-          width: 95%;
-          padding: .5em;
      }
 
 }
